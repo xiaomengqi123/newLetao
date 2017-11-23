@@ -43,7 +43,7 @@ $(function(){
     // console.log(111);
     $('#usermodal1').modal("show");
     var id=$(this).parent().data("id");
-    var isDelete=$(this).hasClass("btn-danger")?"0":"1";
+    var isDelete=$(this).hasClass("btn-danger")?0:1;
     // console.log(id);
   
     $(".icon-comfirm").off().on("click",function(){

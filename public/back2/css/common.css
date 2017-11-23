@@ -113,5 +113,24 @@ a:link,a:visited,a:hover,a:active{
   width: 100%;
 }
 
-
+.lt-content .table #thead th,
+.lt-content .table #tbody td{
+  vertical-align: middle;
+}
+.btn-add{
+  margin-bottom:20px;
+}
+.filebox{
+  position:relative;
+}
+.filebox input{
+  position:absolute;
+  top:0;
+  left:0;
+  height: 34px;
+  opacity:0;
+}
+.filebox button{
+  
+}
 
