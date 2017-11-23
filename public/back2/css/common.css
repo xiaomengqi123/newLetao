@@ -5,3 +5,113 @@
 .loginPage{
   margin-top:150px;
 }
+/*公共页样式*/
+*{
+  padding: 0;
+  margin: 0;
+  list-style:none;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration: none;
+}
+.lt-aside{
+  height: 100%;
+  background-color: #222d32;
+  width: 180px;
+  position:absolute;
+  top:0;
+  left:0;
+  transition:all 1s;
+}
+.lt-aside.now{
+  left:-180px;
+}
+.lt-logo{
+  width: 180px;
+  height: 50px;
+}
+.lt-logo a{
+  display:block;
+  width: 100%;
+  height: 50px;
+  background-color: #367fa9;
+  color:#fff;
+  font-size:24px;
+  line-height: 50px;
+  text-align:center;
+}
+.lt-user{
+  width: 180px;
+  height: 150px;
+  text-align:center;
+}
+.lt-user img{
+  display:block;
+  border-radius:50px;
+  margin:20px auto 10px;
+}
+.lt-user p{
+  color:#fff;
+  font-size:18px;
+}
+.lt-nav{
+  margin-top:20px;
+  width: 180px;
+}
+/*.lt-nav ul li{*/
+  /*width: 180px;*/
+  /*height: 40px;*/
+  /*line-height:40px;*/
+/*}*/
+.lt-nav ul li a{
+  width: 180px;
+  height: 40px;
+  line-height:40px;
+  display:block;
+  padding-left:40px;
+  color:#ccc;
+  border:3px solid transparent;
+}
+.lt-nav ul li a.now{
+  border-left:3px solid blue;
+  background-color: #000;
+}
+.lt-nav .child a{
+  padding-left:55px;
+}
+.lt-main{
+  padding-left:180px;
+  width: 100%;
+  height: 100%;
+  transition:all 1s;
+}
+.lt-main.now{
+  padding-left:0px;
+}
+.lt-main .topbar{
+  width: 100%;
+  height: 50px;
+  background-color: #3c8dbc;
+}
+.lt-main .topbar a{
+  display:block;
+  width: 50px;
+  font-size:18px;
+  height: 50px;
+  line-height: 50px;
+  color:#fff;
+  text-align:center;
+}
+.breadcrumb{
+  margin-top:20px;
+}
+.content{
+  width: 100%;
+}
+
+
+
